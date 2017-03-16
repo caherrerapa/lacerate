@@ -10,7 +10,8 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-
+# TODO: Question, if a report always require a file payload why do we use set_vars rather than setting it on the initialize and use the normal 
+# save method?
 require 'csv'
 class Report < ApplicationRecord
   store :metadata, accessors: [:keyword_count]

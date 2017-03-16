@@ -8,7 +8,6 @@ module Api::V1
     end
 
     def result
-
     end
 
     def created_at
